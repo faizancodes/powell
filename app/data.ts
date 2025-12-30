@@ -6,9 +6,9 @@ type Project = {
   id: string
 }
 
-type WorkExperience = {
+type Member = {
+  name: string
   company: string
-  title: string
   start: string
   end: string
   link: string
@@ -47,31 +47,25 @@ export const PROJECTS: Project[] = [
   },
 ]
 
-export const WORK_EXPERIENCE: WorkExperience[] = [
-  {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work1',
-  },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
-  },
+export const MEMBERS: Member[] = [
+  { name: 'Abdullah Nauman', company: 'Claybird (YC F25)', start: '', end: '', link: '', id: 'member1' },
+  { name: 'Yasin Ehsaan', company: 'Headstarter', start: '', end: '', link: '', id: 'member2' },
+  { name: 'Saad Jamal', company: 'Claybird (YC F25)', start: '', end: '', link: '', id: 'member3' },
+  { name: 'Hassan Syed', company: 'Doublespeed', start: '', end: '', link: '', id: 'member4' },
+  { name: 'Zuhair Lakhani', company: 'Doublespeed', start: '', end: '', link: '', id: 'member5' },
+  { name: 'Mark Benliyan', company: 'Jooba', start: '', end: '', link: '', id: 'member6' },
+  { name: 'Burhan Drak Sibai', company: 'Jooba', start: '', end: '', link: '', id: 'member7' },
+  { name: 'Roy Jad', company: 'Head of Design @ Context', start: '', end: '', link: '', id: 'member8' },
+  { name: 'Joseph Jojoe', company: 'sampling latent space', start: '', end: '', link: '', id: 'member9' },
+  { name: 'Ahmad Khan', company: 'Anytool (YC F25)', start: '', end: '', link: '', id: 'member10' },
+  { name: 'Prama Yudhistra', company: 'Anytool (YC F25)', start: '', end: '', link: '', id: 'member11' },
+  { name: 'Tawsif Kamal', company: 'Founding Engineer @ Google Jules', start: '', end: '', link: '', id: 'member12' },
+  { name: 'Faizan Syed', company: 'TikTok Influencer (500M views)', start: '', end: '', link: '', id: 'member13' },
+  { name: 'Osman Siddique', company: 'Sciloop (YC F25)', start: '', end: '', link: '', id: 'member14' },
+  { name: 'Bilal Asmatullah', company: 'Sciloop (YC F25)', start: '', end: '', link: '', id: 'member15' },
+  { name: 'Essam Sleiman', company: 'Canvas (YC F25)', start: '', end: '', link: '', id: 'member16' },
+  { name: 'Sameel Arif', company: 'Founding Engineer @ Browserbase', start: '', end: '', link: '', id: 'member17' },
+  { name: 'Shrey Pandya', company: 'Growth @ Browserbase', start: '', end: '', link: '', id: 'member18' },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [

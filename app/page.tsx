@@ -14,7 +14,7 @@ import Link from 'next/link'
 import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
-  WORK_EXPERIENCE,
+  MEMBERS,
   BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
@@ -137,13 +137,252 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            Powell is a community of technologists with deep computer science
+            or strong media backgrounds, based out of a house in San Francisco
+            at the intersection of Powell and Lombard St.
           </p>
+          <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+            Founded in 2024, Powell has produced six companies. Each team met
+            their co-founders and developed their initial ideas here.
+          </p>
+          <ul className="mt-4 space-y-1 text-zinc-600 dark:text-zinc-400">
+            <li>
+              <a
+                href="https://x.com/nearcyan/status/1981469667320541560"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                DoubleSpeed
+              </a>{' '}
+              (a16z)
+            </li>
+            <li>
+              <a
+                href="https://jooba.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Jooba
+              </a>{' '}
+              (a16z)
+            </li>
+            <li>
+              <a
+                href="https://www.ycombinator.com/companies/canvas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Canvas
+              </a>{' '}
+              (YC F24)
+            </li>
+            <li>
+              <a
+                href="https://www.ycombinator.com/companies/sciloop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Sciloop
+              </a>{' '}
+              (YC F25)
+            </li>
+            <li>
+              <a
+                href="https://www.ycombinator.com/launches/Ob1-claybird-the-full-stack-ai-ad-company"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Claybird
+              </a>{' '}
+              (YC F25)
+            </li>
+            <li>
+              <a
+                href="https://www.anytool.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Anytool
+              </a>{' '}
+              (YC W26)
+            </li>
+          </ul>
+          <p className="mt-6 text-zinc-600 dark:text-zinc-400">
+            We host private fireside chats in our backyard. To date, we've
+            hosted:
+          </p>
+          <ul className="mt-4 space-y-1 text-zinc-600 dark:text-zinc-400">
+            <li>
+              <a
+                href="https://x.com/TheRohanVarma"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Rohan
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://www.adoptclarity.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Clarity
+              </a>{' '}
+              (acq.{' '}
+              <a
+                href="https://cursor.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Cursor
+              </a>
+              )
+            </li>
+            <li>
+              <a
+                href="https://enoreyes.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Eno
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://factory.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Factory
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.delphi.ai/sam"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Sam
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://www.delphi.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Delphi
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/jeffzwang"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Jeffery
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://exa.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Exa
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/pk_iv"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Paul
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://www.browserbase.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Browserbase
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/jedborovik"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Jed
+              </a>{' '}
+              from{' '}
+              <a
+                href="https://blog.google/technology/google-labs/jules/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+              >
+                Google Labs
+              </a>
+            </li>
+          </ul>
+          <p className="mt-6 text-zinc-600 dark:text-zinc-400">
+            Folks tend to join Powell when they're looking for their next thing and move
+            out after discovering it.
+          </p>
+          <div className="mt-6 flex flex-col space-y-2">
+            {MEMBERS.map((member) => (
+              <div
+                className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
+                key={member.id}
+              >
+                <Spotlight
+                  className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
+                  size={64}
+                />
+                <div className="relative h-full w-full rounded-[15px] bg-white p-4 dark:bg-zinc-950">
+                  <div className="relative flex w-full flex-row justify-between">
+                    <div>
+                      <h4 className="font-normal dark:text-zinc-100">
+                        {member.name}
+                      </h4>
+                      {member.company && (
+                        <p className="text-zinc-500 dark:text-zinc-400">
+                          {member.company}
+                        </p>
+                      )}
+                    </div>
+                    {member.start && member.end && (
+                      <p className="text-zinc-600 dark:text-zinc-400">
+                        {member.start} - {member.end}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </motion.section>
 
-      <motion.section
+      {/* <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -170,45 +409,7 @@ export default function Personal() {
             </div>
           ))}
         </div>
-      </motion.section>
-
-      <motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
-        <div className="flex flex-col space-y-2">
-          {WORK_EXPERIENCE.map((job) => (
-            <a
-              className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
-              href={job.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={job.id}
-            >
-              <Spotlight
-                className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
-                size={64}
-              />
-              <div className="relative h-full w-full rounded-[15px] bg-white p-4 dark:bg-zinc-950">
-                <div className="relative flex w-full flex-row justify-between">
-                  <div>
-                    <h4 className="font-normal dark:text-zinc-100">
-                      {job.title}
-                    </h4>
-                    <p className="text-zinc-500 dark:text-zinc-400">
-                      {job.company}
-                    </p>
-                  </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">
-                    {job.start} - {job.end}
-                  </p>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
-      </motion.section>
+      </motion.section> */}
 
       <motion.section
         variants={VARIANTS_SECTION}

@@ -139,9 +139,18 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Powell is a community of technologists with deep computer science
+            <strong>Powell</strong> is a community of technologists with deep computer science
             or strong media backgrounds, based out of a house in San Francisco
-            at the intersection of Powell and Lombard St.
+            at the intersection of{' '}
+            <a
+              href="https://maps.app.goo.gl/FYBpoMkADVsLY3vF6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-zinc-900 dark:hover:text-zinc-200"
+            >
+              Powell and Lombard St
+            </a>
+            .
           </p>
           <p className="mt-4 text-zinc-600 dark:text-zinc-400">
             Founded in 2024, Powell has produced six companies. Each team met

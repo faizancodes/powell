@@ -67,6 +67,7 @@ export const MEMBERS: Member[] = [
   { name: 'Shrey Pandya', company: 'Growth @ Browserbase', subheading: 'Created the startup scene at Michigan', start: '', end: '', link: '', id: 'member18' },
   { name: 'Tawsif Kamal', company: 'Founding Engineer @ Google Jules', subheading: '', start: '', end: '', link: '', id: 'member12' },
   { name: 'Sameel Arif', company: 'Founding Engineer @ Browserbase', subheading: '', start: '', end: '', link: '', id: 'member17' },
+  { name: 'Abdulla Abubakre', company: 'CEO @ InterviewCoder', subheading: 'Designed VR headsets at ByteDance', start: '', end: '', link: '', id: 'member19' },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [

@@ -64,10 +64,10 @@ export const MEMBERS: Member[] = [
   { name: 'Roy Jad', company: 'Head of Design @ Context', subheading: 'Scaled 7-figure design agency', start: '', end: '', link: '', id: 'member8' },
   { name: 'Joseph Jojoe', company: 'sampling latent space', subheading: 'with elad gil', start: '', end: '', link: '', id: 'member9' },
   { name: 'Essam Sleiman', company: 'Canvas (YC F25)', subheading: 'Trained Twitch\'s video foundation model', start: '', end: '', link: '', id: 'member16' },
+  { name: 'Abdulla Abubakre', company: 'CEO @ InterviewCoder', subheading: 'Designed VR headsets at ByteDance', start: '', end: '', link: '', id: 'member19' },
   { name: 'Shrey Pandya', company: 'Growth @ Browserbase', subheading: 'Created the startup scene at Michigan', start: '', end: '', link: '', id: 'member18' },
   { name: 'Tawsif Kamal', company: 'Founding Engineer @ Google Jules', subheading: '', start: '', end: '', link: '', id: 'member12' },
   { name: 'Sameel Arif', company: 'Founding Engineer @ Browserbase', subheading: '', start: '', end: '', link: '', id: 'member17' },
-  { name: 'Abdulla Abubakre', company: 'CEO @ InterviewCoder', subheading: 'Designed VR headsets at ByteDance', start: '', end: '', link: '', id: 'member19' },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [

@@ -59,7 +59,7 @@ export const MEMBERS: Member[] = [
     id: 'member1',
   },
   {
-    name: 'Yasin Ehsaan',
+    name: 'Yasin Ehsan',
     company: 'Headstarter',
     subheading: 'a16z Scout',
     start: '',
@@ -68,13 +68,22 @@ export const MEMBERS: Member[] = [
     id: 'member2',
   },
   {
+    name: 'Faizan Ahmed',
+    company: 'Headstarter',
+    subheading: 'Published ML research at 19',
+    start: '',
+    end: '',
+    link: '',
+    id: 'member3',
+  },
+  {
     name: 'Saad Jamal',
     company: 'Claybird (YC F25)',
     subheading: 'On leave from UChicago Law',
     start: '',
     end: '',
     link: '',
-    id: 'member3',
+    id: 'member4',
   },
   {
     name: 'Faizan Syed',
@@ -83,7 +92,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member13',
+    id: 'member5',
   },
   {
     name: 'Hassan Syed',
@@ -92,7 +101,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member4',
+    id: 'member6',
   },
   {
     name: 'Zuhair Lakhani',
@@ -101,7 +110,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member5',
+    id: 'member7',
   },
   {
     name: 'Ahmad Khan',
@@ -110,7 +119,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member10',
+    id: 'member8',
   },
   {
     name: 'Prama Yudhistra',
@@ -119,7 +128,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member11',
+    id: 'member9',
   },
   {
     name: 'Bilal Asmatullah',
@@ -128,7 +137,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member15',
+    id: 'member10',
   },
   {
     name: 'Osman Siddique',
@@ -137,7 +146,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member14',
+    id: 'member11',
   },
   {
     name: 'Mark Benliyan',
@@ -146,7 +155,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member6',
+    id: 'member12',
   },
   {
     name: 'Burhan Drak Sibai',
@@ -155,7 +164,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member7',
+    id: 'member13',
   },
   {
     name: 'Roy Jad',
@@ -164,7 +173,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member8',
+    id: 'member14',
   },
   {
     name: 'Joseph Jojoe',
@@ -173,7 +182,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member9',
+    id: 'member15',
   },
   {
     name: 'Essam Sleiman',
@@ -191,7 +200,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member19',
+    id: 'member17',
   },
   {
     name: 'Shrey Pandya',
@@ -209,7 +218,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member12',
+    id: 'member19',
   },
   {
     name: 'Sameel Arif',
@@ -218,7 +227,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member17',
+    id: 'member20',
   },
 ]
 
